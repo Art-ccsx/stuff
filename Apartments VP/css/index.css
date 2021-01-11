@@ -28,6 +28,14 @@ h4 {
     text-transform: uppercase;
 }
 
+.space20 {
+    height: 20px;
+}
+
+.space100 {
+    height: 100px;
+}
+
 .pseudo-header {
     height: 148px;
     width: 100%;
@@ -112,4 +120,207 @@ main h1 {
     letter-spacing: .2em;
 }
 
+.darkback {
+    height: 800px;
+    width: 100%;
+    margin: auto;
+    background-color: #1B1A1E;
+    display: inline-flex;
+    flex-wrap: none;
+    justify-content: space-between;
+}
+
+.aboutcontainer {
+    display: inline-block;
+    min-width: 600px;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 102px;
+}
+
+.aboutcontainer h3 {
+    font-weight: 300;
+    line-height: 42px;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    color: #F9F5F4;
+    margin-bottom: 60px;
+}
+
+.aboutcontainer p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #F9F5F4;
+    line-height: 140%;
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+.aboutcontainer .figs {
+    display: inline;
+    margin-right: 60px;
+    margin-left: -4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    color: #8B6E4B;
+}
+
+.aboutcontainer .figs2400 {
+    display: inline;
+    margin-right: 10px;
+    margin-left: -4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    color: #8B6E4B;
+}
+
+.aboutcontainer .figsm {
+    display: inline;
+    margin-right: 0px;
+    margin-left: -4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8B6E4B;
+}
+
+.aboutcontainer .figs2 {
+    display: inline;
+    position: relative;
+    bottom: 4px;
+    margin-right: 60px;
+    margin-left: -4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8B6E4B;
+}
+
+.aboutcontainer .figs38 {
+    display: inline;
+    margin-left: -4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    color: #8B6E4B;
+}
+
+.aboutcontainer .figs24 {
+    display: inline;
+    position: relative;
+    margin-right: 10px;
+    margin-left: -4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    color: #8B6E4B;
+}
+
+.aboutcontainer .figshours {
+    display: inline;
+    position: relative;
+    margin-right: 64px;
+    margin-left: -4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8B6E4B;
+}
+
+.aboutcontainer .figs231 {
+    display: inline;
+    position: relative;
+    margin-right: 128px;
+    margin-left: -4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    color: #8B6E4B;
+}
+
+.aboutcontainer .capt {
+    display: inline;
+    margin-left: -4px;
+    margin-right: 102px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #F9F5F4;
+}
+
+.aboutcontainer .captpr {
+    display: inline;
+    margin-left: -4px;
+    margin-right: 106px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #F9F5F4;
+}
+
+.aboutcontainer .captse {
+    display: inline;
+    margin-left: -4px;
+    margin-right: 112px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #F9F5F4;
+}
+
+.aboutcontainer .captun {
+    display: inline;
+    margin-left: -4px;
+    margin-right: 167px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #F9F5F4;
+}
+
+.imgaboutdiv {
+    display: inline-block;
+    width: 800px;
+    height: 800px;
+}
+
+.imgabout {
+    display: inline-block;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/section 1.png");
+    background-size: cover;
+    background-position: center center;
+}
 
