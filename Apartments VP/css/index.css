@@ -56,6 +56,10 @@ nav div p, nav div img{
     display: inline;
 }
 
+nav div p {
+    font-size: 16px;
+}
+
 .logo {
     height: 60px;
     width: 60px;
@@ -64,34 +68,34 @@ nav div p, nav div img{
 }
 
 .mainback {
-    
     height: 1000px;
     width: auto;
     margin: auto;
     background-image: url("../images/main.png");
     background-size: cover;
-    background-color: rgba(27, 26, 30, 0.7);
-    background-blend-mode: multiply;
+    background-position: center center;
 }
 
 .mainflex {
-    position: absolute;
-    display: inline-block;
-    top: 50%;
-    transform: translateY(-50%) translateX(-50%);
+    position: relative;
+    display: block;
+    top: 500px;
     left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    margin-bottom: 100px;
 }
 
 .mainflex h1, .mainflex h4, main h5 {
     text-align: center;
 }
 
-main div h5 {
-    position: absolute;
-    bottom: 100px;
+h5.send {
+    display: inline-block;
+    position: relative;
+    top: 455px;
     left: 50%;
-    transform: translateX(-50%);
-    padding: 18px 78px;
+    transform: translateY(-50%) translateX(-50%);
+    padding: 19px 79px;
     border: 1px solid rgb(249, 245, 244);
     font-weight: 500;
     font-size: 14px;
@@ -100,7 +104,7 @@ main div h5 {
 }
 
 main h1 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-family: "Code Demo Light";
     font-size: 100px;
     font-weight: 300;
@@ -108,8 +112,4 @@ main h1 {
     letter-spacing: .2em;
 }
 
-@media only screen and (max-height: 600px) {
-    .mainflex {
-        display: none;
-    }
-}
+
