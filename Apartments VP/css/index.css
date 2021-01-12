@@ -135,10 +135,9 @@ main h1 {
     min-width: 600px;
     margin-top: 60px;
     margin-left: 200px;
-    margin-right: 102px;
 }
 
-.aboutcontainer h3 {
+h3 {
     font-weight: 300;
     line-height: 42px;
     font-size: 30px;
@@ -256,6 +255,18 @@ main h1 {
     color: #8B6E4B;
 }
 
+.aboutcontainer .figs247 {
+    display: inline;
+    margin-right: 102px;
+    margin-left: -4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    color: #8B6E4B;
+}
+
 .aboutcontainer .capt {
     display: inline;
     margin-left: -4px;
@@ -322,5 +333,69 @@ main h1 {
     background-image: url("../images/section 1.png");
     background-size: cover;
     background-position: center center;
+}
+
+.darkback2 {
+    height: 900px;
+    width: 100%;
+    margin: auto;
+    background-color: #1B1A1E;
+    display: inline-flex;
+    flex-wrap: none;
+    justify-content: space-between;
+}
+
+.imglocdiv {
+    display: inline-block;
+    width: 800px;
+    height: 900px;
+}
+
+.imgloc {
+    display: inline-block;
+    position: relative;
+    height: 900px;
+    width: 100%;
+    background-image: url("../images/section 2.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.locationcontainer {
+    display: inline-block;
+    min-width: 740px;
+    margin-top: 100px;
+    padding-left: 60px;
+}
+
+.locationcontainer img {
+    display: inline;
+    margin-right: 42px;
+}
+
+.locationcontainer div:not(.space100) {
+    display: inline-flex;
+    flex-wrap: none;
+    align-items: center;
+}
+
+.capt448 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #F9F5F4;
+}
+
+.capt4mins, .capt5mins, .capt10mins {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F9F5F4;
 }
 
