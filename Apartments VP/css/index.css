@@ -131,10 +131,11 @@ main h1 {
 }
 
 .aboutcontainer {
-    display: inline-block;
-    min-width: 600px;
+    display: block;
+    max-width: 720px;
     margin-top: 60px;
-    margin-left: 200px;
+    margin-right: 80px;
+    float: right;
 }
 
 h3 {
@@ -257,7 +258,6 @@ h3 {
 
 .aboutcontainer .figs247 {
     display: inline;
-    margin-right: 102px;
     margin-left: -4px;
     font-family: Lato;
     font-style: normal;
@@ -269,7 +269,6 @@ h3 {
 
 .aboutcontainer .capt {
     display: inline;
-    margin-left: -4px;
     margin-right: 102px;
     font-family: Lato;
     font-style: normal;
@@ -293,9 +292,20 @@ h3 {
     color: #F9F5F4;
 }
 
-.aboutcontainer .captse {
+.aboutcontainer .captfl {
     display: inline;
     margin-left: -4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #F9F5F4;
+}
+
+.aboutcontainer .captse {
+    display: inline;
     margin-right: 112px;
     font-family: Lato;
     font-style: normal;
@@ -319,7 +329,7 @@ h3 {
     color: #F9F5F4;
 }
 
-.imgaboutdiv {
+.imgaboutdiv, .imgcondiv {
     display: inline-block;
     width: 800px;
     height: 800px;
@@ -333,6 +343,10 @@ h3 {
     background-image: url("../images/section 1.png");
     background-size: cover;
     background-position: center center;
+}
+
+.location {
+    margin-top: -5px;
 }
 
 .darkback2 {
@@ -361,11 +375,19 @@ h3 {
     background-position: center center;
 }
 
-.locationcontainer {
+.wrapboard {
     display: inline-block;
-    min-width: 740px;
+    height: 800px;
+    width: 800px;
+    min-width: 600px;
+}
+
+.locationcontainer {
+    display: block;
+    max-width: 740px;
     margin-top: 100px;
     padding-left: 60px;
+    float: left;
 }
 
 .locationcontainer img {
@@ -425,4 +447,53 @@ h3 {
 .shopping img {
     margin-right: 0px;
     margin-left: 30px;
+}
+
+.concept {
+    margin-top: -5px;
+}
+
+.whiteback {
+    display: inline-block;
+    height: 800px;
+    width: 800px;
+    min-width: 600px;
+    background-color: #E5E5E5;
+    opacity: 1;
+}
+
+.concontainer {
+    max-width: 800px;
+    height: 800px;
+    display: block;
+    margin-top: 80px;
+    margin-right: 100px;
+    float: right;
+}
+
+.concontainer h3, p {
+    color: #1B1A1E;
+}
+
+.concontainer h3 {
+    margin-top: 203px;
+}
+
+.concontainer p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 60px;
+}
+
+.imgcon {
+    display: inline-block;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/section 3.png");
+    background-size: cover;
+    background-position: center center;
 }
